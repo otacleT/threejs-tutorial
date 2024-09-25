@@ -82,6 +82,8 @@ world.addBody(groundBody);
 // Controller
 const controls = new OrbitControls(camera, renderer.domElement);
 
+groundBody.quaternion.setFromEuler(-Math.PI / 2, 0, 0);
+
 // 6. Scene, world のレンダリング
 const animate = (): void => {
 	requestAnimationFrame(animate);
