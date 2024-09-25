@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // ブラウザ互換性のためにES6をターゲットに設定
+    "module": "ES6", // ES Modulesを使用するためにモジュールをES6に設定
+    "moduleResolution": "node",
+    "outDir": "./output", // 出力先ディレクトリ
+    "esModuleInterop": true, // ESモジュール互換
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "paths": {
+      "three/addons/*": ["node_modules/@types/three/examples/jsm/*"]
+    },
+    "baseUrl": "."
+  }
+}

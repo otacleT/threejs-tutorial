@@ -1,0 +1,24 @@
+{
+	"name": "threejs-tutorial",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"compile": "tsc",
+		"dev": "http-server ./ -o index.html -c-1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"@biomejs/biome": "1.9.2",
+		"typescript": "^5.6.2"
+	},
+	"dependencies": {
+		"@types/three": "^0.168.0",
+		"cannon-es": "^0.20.0",
+		"http-server": "^14.1.1",
+		"three": "^0.168.0"
+	}
+}
