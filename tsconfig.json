@@ -12,5 +12,6 @@
       "three/addons/*": ["node_modules/@types/three/examples/jsm/*"]
     },
     "baseUrl": "."
-  }
+  },
+  "exclude": ["final/*"]
 }
