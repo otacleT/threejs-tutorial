@@ -58,8 +58,8 @@ const world = new CANNON.World({
 
 const boxBody = new CANNON.Body({
 	mass: 1,
-	shape: new CANNON.Box(new CANNON.Vec3(2, 2, 2)),
-	position: new CANNON.Vec3(5, 20, 0),
+	shape: new CANNON.Box(new CANNON.Vec3(1, 1, 1)),
+	position: new CANNON.Vec3(1, 20, 0),
 });
 world.addBody(boxBody);
 
